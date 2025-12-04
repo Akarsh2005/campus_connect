@@ -1,6 +1,6 @@
 # 🎓 Campus Connect
 
-A comprehensive **college communication platform** designed to unify interactions between **students**, **faculty**, **HODs**, **admins**, and **alumni**.
+A comprehensive **college communication platform** designed to unify interactions between **students**, **faculty**, **HODs**, and **alumni**.
 Campus Connect streamlines messaging, assignments, attendance, announcements, and alumni-driven opportunities — all with **role-based access control**.
 
 ---
