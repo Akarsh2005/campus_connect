@@ -19,9 +19,6 @@ Campus Connect streamlines messaging, assignments, attendance, announcements, an
 * [Testing](#-testing)
 * [Authentication & Authorization](#authentication--authorization)
 * [Database Models](#-database-models)
-* [Contributing](#-contributing)
-* [Authors](#-authors)
-* [Support](#-support)
 
 ---
 
@@ -74,8 +71,6 @@ Campus Connect streamlines messaging, assignments, attendance, announcements, an
 * MongoDB (Mongoose)
 * JWT authentication
 * bcryptjs password hashing
-* Morgan for logging
-* Jest for testing
 
 ### **Frontend**
 
@@ -161,7 +156,7 @@ npm run install-frontend
 PORT=5000
 NODE_ENV=development
 
-MONGODB_URI="your mongodb url"
+MONGODB_URI="your mongodb string"
 
 JWT_SECRET=your_jwt_secret_key
 CORS_ORIGIN=http://localhost:3001
@@ -234,14 +229,6 @@ npm run test:memory
 npm run test:atlas
 ```
 
-### Setup Utilities
-
-```
-npm run setup-all
-npm run create-frontend
-npm run setup-frontend
-```
-
 ---
 
 ## 📚 API Documentation
@@ -302,20 +289,6 @@ npm run setup-frontend
 
 ---
 
-## 🧪 Testing
-
-```bash
-npm run test
-npm run test:watch
-npm run test:memory
-```
-
-Tests are located in:
-
-```
-Backend/tests/
-```
-
 ---
 
 ## 🔐 Authentication & Authorization
@@ -357,15 +330,4 @@ Tokens are stored in **localStorage** and verified via middleware.
 
 ---
 
-## 👥 Authors
-
-* **Akarsh2005**
-
----
-
-## 📧 Support
-
-For issues or suggestions, please open a GitHub issue.
-
----
 
